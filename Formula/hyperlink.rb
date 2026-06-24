@@ -1,17 +1,17 @@
 class Hyperlink < Formula
   desc "High-speed peer-to-peer file transfer over USB4 and Thunderbolt network links"
   homepage "https://github.com/Chaoos-404/HyperLink"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
-    url "https://github.com/Chaoos-404/HyperLink/releases/download/v0.1.3/Hyperlink-0.1.3-macos-universal.tar.gz"
-    sha256 "6487092254678017d62082ff6defa0ba09a7945d4d570b853b5766ebf167caa7"
+    url "https://github.com/Chaoos-404/HyperLink/releases/download/v0.1.4/Hyperlink-0.1.4-macos-universal.tar.gz"
+    sha256 "12ea00af633e4c8a4c0cdbc493feae0c7c6ef473cf2ba6ffcc9c8d651e968942"
   end
 
   on_linux do
-    url "https://github.com/Chaoos-404/HyperLink/releases/download/v0.1.3/Hyperlink-0.1.3-linux-x64.tar.gz"
-    sha256 "8454d486aba210f48f52addf5e7740d3768c08aba8ed5bea3d2f1a7a66cd96a1"
+    url "https://github.com/Chaoos-404/HyperLink/releases/download/v0.1.4/Hyperlink-0.1.4-linux-x64.tar.gz"
+    sha256 "b5b629aecbd34c3283c5a9333f08d51b88f46c4b6224c750f7bc744b19516139"
   end
 
   def install
